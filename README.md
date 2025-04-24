@@ -34,4 +34,5 @@ A smart and user-friendly chatbot designed to answer common queries related to c
 - MySQL database to store structured college data
 
 ---
+![image](https://github.com/user-attachments/assets/1ad344a6-7d6f-40c9-acfb-e4af76a74489)
 
