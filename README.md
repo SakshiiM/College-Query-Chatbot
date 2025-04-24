@@ -28,10 +28,10 @@ A smart and user-friendly chatbot designed to answer common queries related to c
   - Fee Structure
   - Placemet Statistic
   - Events/Student Activities
+  - Hostel Menu, locations, FAQs
 - Responsive UI for smooth user experience
 - Flask backend to handle API calls and logic
 - MySQL database to store structured college data
-- Easily extendable with new intents and answers
 
 ---
 
