@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+            <div class="logocont">
+                <div class="logo">
+                    <a class="logotext" href="{{ url_for('home') }}">PICT</a>
+                </div>
+            </div>
+            <a class="navbarelements" href="{{ url_for('home') }}">Home</a>
+            <a class="navbarelements" href="{{ url_for('about') }}">About us</a>
+            <a class="navbarelements" >Admissions</a>
+            <a class="navbarelements" >Life@PICT</a>
+            <a class="navbarelements" >Training</a>
+            <a class="navbarelements" >Departments</a>
+            <a class="navbarelements" >Research</a>
+            <a class="navbarelements" >Alumni</a>
+            <a class="navbarelements" href="{{ url_for('contact') }}">Contact us</a>
+
+            <a>
+                <input class="navbarelements">
+                <img class="search" src="{{ url_for('static', filename='images/searchw.png') }}">
+            </a>
+    </header>
+    <!--picture w text on top-->
+    <div class="firstpic">
+        <img class="intropic" src="{{ url_for('static', filename='images/pict.jpg') }}">
+        <div class="introtext">
+            <p class="introtext1">Top Engineering College</p>
+            <p class="introtext2">of Pune</p>
+            <div class="morebutton">
+                <a class ="morebutton_text" href="{{ url_for('about') }}">Find out more</a>
+            </div>
+        </div>
+    </div>
+    <div class="dept">
+        <div class="courses">
+            <p class="courses_text">D</p>     
+            <p class="courses_text">E</p> 
+            <p class="courses_text">P</p> 
+            <p class="courses_text">T</p> 
+        </div>
+        <div class="alldepts">
+            <div class="comp">COMPUTER ENIGINEERING</div>
+            <br>
+            <br>
+            <div class="comp">INFORMATION TECH</div>
+            <br>
+            <br>
+            <div class="comp">ELECTRONICS & TELECOMMUNICATION</div>
+            <br>
+            <br>
+            <div class="comp">FIRST YEAR ENGINEERING</div>
+        </div>
+    </div>
+
+    <!--video and image and campus title-->
+    <div class="campustitle">
+        <h1>Campus</h1>
+    </div>
+    
+    <img class="campus1" src="{{ url_for('static', filename='images/clg bldg.jpg') }}">
+    <img class="campus2" src="{{ url_for('static', filename='images/Hostel.jpg') }}">
+    <img class="campus1" src="{{ url_for('static', filename='images/EDC Cell.jpg') }}">
+    <img class="campus2" src="{{ url_for('static', filename='images/Auditorium.jpg') }}">
+    <br>
+    <br>
+    <br>
+    <div class="vid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/krzXKGKM0hg?si=jR0SuTkpx_GCucwV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer class="footer">
+        <a href="https://www.google.com/maps/place/SCTR'S+Pune+Institute+of+Computer+Technology/@18.4575421,73.8486449,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc2eac85230ba47:0x871eddd0a8a0a108!8m2!3d18.4575421!4d73.8508336?shorturl=1" class="fele">Address</a>
+        <p class="fele"> Contact us at<br> +91 20 24371101</p>
+        <p class="fele"> Email us at <br> registrar@pict.edu</p>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chat-toggle">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <span>Noa</span>
+            <span class="close-chat">×</span>
+        </div>
+        <div class="chat-messages">
+            <!-- Initial greeting removed -->
+        </div>
+        <div class="loading">Thinking...</div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html> 
