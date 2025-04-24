@@ -39,13 +39,12 @@ A smart and user-friendly chatbot designed to answer common queries related to c
 Demo Website:
 ![image](https://github.com/user-attachments/assets/70613932-cc3d-4805-89e8-051fb7c0d6ca)
 Chatbot:
-![image](https://github.com/user-attachments/assets/3649cd43-3e8d-437c-808f-2a19678eac98)
 
-![image](https://github.com/user-attachments/assets/f3f6a396-9591-4a37-8987-c1a40781aff0)
+![image](https://github.com/user-attachments/assets/16aed3d7-c274-4f2d-a2a5-306ac8911ef3)
 
-![image](https://github.com/user-attachments/assets/05ee23cc-441f-4457-83c9-2d191dbdff2c)
+![image](https://github.com/user-attachments/assets/3581840b-6cd3-49df-8ec8-35261b2f6bb3)
 
-![image](https://github.com/user-attachments/assets/570502e6-fb20-4807-a0c5-e68897b7b466)
+![image](https://github.com/user-attachments/assets/b9d9c800-9a36-4380-bef9-409b25104980)
 
 
 
